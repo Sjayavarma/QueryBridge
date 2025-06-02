@@ -72,7 +72,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ─── Gemini API Configuration ───
-genai.configure(api_key="AIzaSyAX8bqu4EFIZwrBayPvp50oiVvHEzODhZ0")
+genai.configure(api_key="## your gemini api key ")
 
 # ─── Utility: Get schema from SQLite ───
 def get_sqlite_schema(db_path):
